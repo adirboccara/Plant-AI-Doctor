@@ -65,7 +65,7 @@ The 13% error margin on chemical images was analyzed using Grad-CAM. Key challen
 ## 🛠️ Installation
 ```bash
 # Clone the repository
-git clone [https://github.com/YourUsername/Plant-AI-Doctor.git](https://github.com/YourUsername/Plant-AI-Doctor.git)
+git clone [https://github.com/adirboccara/Plant-AI-Doctor.git](git clone https://github.com/adirboccara/Plant-AI-Doctor.git)
 
 # Install dependencies
 pip install -r requirements.txt

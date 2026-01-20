@@ -26,7 +26,7 @@ The model was tested on a ground-truth dataset of **751 real-world images** (690
 | Metric | Result | Formula |
 | :--- | :--- | :--- |
 | **Biological Specificity** | **100.00%** | $Spec = \frac{TN}{TN + FP}$ |
-| **Chemical Recall** | **86.89%** | $Rec = \frac{TP}{TP + FN}$ |
+| **Chemical Recall** | **93.44%** | $Rec = \frac{TP}{TP + FN}$ |
 | **F1-Score** | **~93%** | $2 \cdot \frac{Prec \cdot Rec}{Prec + Rec}$ |
 | **Stress Test Consistency** | **86.89%** | (Center Crop Stability) |
 

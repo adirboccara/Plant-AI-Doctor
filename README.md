@@ -65,3 +65,6 @@ The 6% error margin on chemical images was analyzed using Grad-CAM. Key challeng
 
 ---
 
+## 📦 Dataset Availability  
+Due to size constraints, the full synthetic dataset (~800 images) is not included in this repository.  
+A small demo subset is provided for review and reproducibility.  

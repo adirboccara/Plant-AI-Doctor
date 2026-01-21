@@ -2,6 +2,7 @@
 ### Identifying Plant Damage using Synthetic Data Generation
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15SIcFFvEeJNajn0oGCANytRk3ma9wmNt?usp=sharing)
+
 The notebook is fully runnable for demonstration and analysis.
 Large-scale synthetic data generation was performed offline and is documented for reproducibility.
 

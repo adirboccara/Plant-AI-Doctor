@@ -71,8 +71,4 @@ The 6% error margin on chemical images was analyzed using Grad-CAM. Key challeng
 * **Marginal Necrosis:** Damage at leaf edges that mimics biological nutrient deficiency.
 * **Low Resolution:** Fine spotting that becomes indistinct at $224 \times 224$ pixels.
 
----
-
-## 📦 Dataset Availability  
-Due to size constraints, the full synthetic dataset (~800 images) is not included in this repository.  
-A small demo subset is provided for review and reproducibility.  
+---  

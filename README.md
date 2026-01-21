@@ -1,6 +1,8 @@
 # 🌿 Plant-AI-Doctor: Bridging the Domain Gap
 ### Identifying Plant Damage using Synthetic Data Generation
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15SIcFFvEeJNajn0oGCANytRk3ma9wmNt?usp=sharing)
+
 This project addresses a critical gap in precision agriculture: the lack of labeled data for **Chemical Damage** in plants. By leveraging **Generative AI**, we created a robust diagnostic tool that distinguishes between biological diseases and chemical-induced stress.
 
 ---

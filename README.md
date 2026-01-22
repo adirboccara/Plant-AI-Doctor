@@ -60,7 +60,7 @@ The model was tested on a ground-truth dataset of **751 real-world images** (690
 │       └── chemical/         # GenAI-generated fertilizer burn samples
 ├── notebooks/                # Main project notebooks (Training & Evaluation)
 └── README.md                 # Project documentation
-
+```text
 ---
 
 ## 🛠️ Methodology

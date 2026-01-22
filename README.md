@@ -49,6 +49,9 @@ The model was tested on a ground-truth dataset of **751 real-world images** (690
 | **F1-Score** | **~93%** | $2 \cdot \frac{Prec \cdot Rec}{Prec + Rec}$ |
 | **Stress Test Consistency** | **86.89%** | (Center Crop Stability) |
 
+
+## 📁 Repository Structure
+```text
 ├── data/
 │   ├── real/
 │   │   ├── biological/       # Real-world field images of diseases

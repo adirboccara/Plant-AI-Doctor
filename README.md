@@ -29,6 +29,12 @@ While biological diseases (fungi, bacteria) are well-documented, chemical damage
 
 ---
 
+## 🖼️ Visual Abstract
+
+<img width="670" height="217" alt="image" src="https://github.com/user-attachments/assets/38905c13-ed8e-4345-ade1-60d804278ef7" />
+
+---
+
 ## 📊 Performance Metrics (Real-World Data)
 The model was tested on a ground-truth dataset of **751 real-world images** (690 Biological, 61 Chemical).
 
@@ -38,6 +44,15 @@ The model was tested on a ground-truth dataset of **751 real-world images** (690
 | **Chemical Recall** | **93.44%** | $Rec = \frac{TP}{TP + FN}$ |
 | **F1-Score** | **~93%** | $2 \cdot \frac{Prec \cdot Rec}{Prec + Rec}$ |
 | **Stress Test Consistency** | **86.89%** | (Center Crop Stability) |
+
+├── data/
+│   ├── real/
+│   │   ├── biological/       # Real-world field images of diseases
+│   │   └── chemical/         # Real-world field images of chemical damage
+│   └── synthetic/
+│       └── chemical/         # GenAI-generated fertilizer burn samples
+├── notebooks/                # Main project notebooks (Training & Evaluation)
+└── README.md                 # Project documentation
 
 ---
 
@@ -82,3 +97,10 @@ The 6% error margin on chemical images was analyzed using Grad-CAM. Key challeng
 * **Low Resolution:** Fine spotting that becomes indistinct at $224 \times 224$ pixels.
 
 ---  
+
+👥 Team Members
+- Adir Boccara
+
+- Eden Charkachi
+
+- Aharoni Cohen

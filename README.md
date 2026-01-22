@@ -10,6 +10,10 @@ Large-scale synthetic data generation was performed offline and is documented fo
 You can download the full dataset and pre-trained model weights from the following link:
 [Download Plant-AI-Doctor.zip](https://hitacil-my.sharepoint.com/:u:/g/personal/adirb_my_hit_ac_il/IQDL9cBu172kS6bP1cdYeIrHAUB_0lrQ93uCHUczV9Yl0ns?e=nFyIXv)
 
+The system was developed using a hybrid dataset strategy:
+* **Biological/Healthy:** Sourced from established public datasets.
+* **Synthetic Chemical (Training):** ~700 high-fidelity images generated via our GenAI pipeline.
+
 
 This project addresses a critical gap in precision agriculture: the lack of labeled data for **Chemical Damage** in plants. By leveraging **Generative AI**, we created a robust diagnostic tool that distinguishes between biological diseases and chemical-induced stress.
 

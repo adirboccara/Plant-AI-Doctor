@@ -43,6 +43,7 @@ The model was tested on a ground-truth dataset of **751 real-world images** (690
 
 ## 🛠️ Methodology
 
+
 ### 1. Synthetic Data Generation Pipeline (GenAI)
 
 To overcome the critical scarcity of labeled chemical damage data, we developed a high-fidelity generation pipeline:
@@ -62,6 +63,15 @@ To ensure a robust evaluation, we implemented a three-way split of the hybrid da
 
 ### 3. Stress Testing (Robustness)
 We performed a **Center Crop Stress Test** to verify that the model relies on leaf texture rather than background shortcuts. The model maintained an **86.89% consistency rate**, proving its focus on the plant's health status.
+
+### ⚙️ Training Parameters
+To achieve the reported results, the following hyperparameters were used:
+* **Architecture:** ResNet18 (Pre-trained on ImageNet).
+* **Optimizer:** Adam (Learning Rate: 1e-4).
+* **Loss Function:** Cross-Entropy Loss.
+* **Epochs:** 5.
+* **Batch Size:** 32.
+* **Input Resolution:** 224 x 224 pixels.
 
 ---
 

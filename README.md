@@ -49,18 +49,6 @@ The model was tested on a ground-truth dataset of **751 real-world images** (690
 | **F1-Score** | **~93%** | $2 \cdot \frac{Prec \cdot Rec}{Prec + Rec}$ |
 | **Stress Test Consistency** | **86.89%** | (Center Crop Stability) |
 
-
-## 📁 Repository Structure
-```text
-├── data/
-│   ├── real/
-│   │   ├── biological/       # Real-world field images of diseases
-│   │   └── chemical/         # Real-world field images of chemical damage
-│   └── synthetic/
-│       └── chemical/         # GenAI-generated fertilizer burn samples
-├── notebooks/                # Main project notebooks (Training & Evaluation)
-└── README.md                 # Project documentation
-text```
 ---
 
 ## 🛠️ Methodology
@@ -105,9 +93,20 @@ The 6% error margin on chemical images was analyzed using Grad-CAM. Key challeng
 
 ---  
 
-👥 Team Members
+## 👥 Team Members
 - Adir Boccara
 
 - Eden Charkachi
 
 - Aharoni Cohen
+
+## 📁 Repository Structure
+```text
+├── data/
+│   ├── real/
+│   │   ├── biological/       # Real-world field images of diseases
+│   │   └── chemical/         # Real-world field images of chemical damage
+│   └── synthetic/
+│       └── chemical/         # GenAI-generated fertilizer burn samples
+├── notebooks/                # Main project notebooks (Training & Evaluation)
+└── README.md                 # Project documentation
